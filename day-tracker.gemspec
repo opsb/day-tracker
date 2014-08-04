@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Day::Tracker::VERSION
   spec.authors       = ["opsb"]
   spec.email         = ["oliver@opsb.co.uk"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Simple cli for tracking which project you've worked on each day}
+  spec.summary       = %q{Simple cli for tracking which project you've worked on each day}
+  spec.homepage      = "https://github.com/opsb/day-tracker"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
