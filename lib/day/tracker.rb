@@ -38,9 +38,9 @@ module Day
 
 	  		def formatted_fraction(fraction)
 	  			{
-					"0.5": "half",
-					".5": "half",
-					"1", "full"	  				
+  					"0.5" => "half",
+  					".5" => "half",
+  					"1" => "full"	  				
 	  			}[fraction]	  			
 	  		end
 	  	end
