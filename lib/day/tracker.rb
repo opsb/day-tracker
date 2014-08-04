@@ -2,6 +2,10 @@ require "day/tracker/version"
 
 module Day
   module Tracker
-    # Your code goes here...
+  	class Cli < Thor
+  		def hello
+  			puts "hello"
+  		end
+  	end
   end
 end
